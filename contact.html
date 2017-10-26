@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Linux Help</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="img/linuxfavicon.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Fredoka%20One" rel="stylesheet" type="text/css"/>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!-- NavBar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+	<!-- Google font for Logo -->
+    <a href="index.html" class="brand long-shadow">linux {#!} help</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="install.html">INSTALL</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+            <span class="caret"></span>
+          </a>
+		  <!-- Dropdown -->
+          <ul class="dropdown-menu">
+            <li><a href="terminal.html">Terminal Commands</a></li>
+            <li><a href="distributions.html">Distributions</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Jumbotron -->
+<div class="jumbotron jumbotron-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <h1 class="h1">Contact us </h1>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Container -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="well well-sm">
+				<!-- Form -->
+                <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Email Address</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-envelope"></i>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                Subject</label>
+                            <select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choose One:</option>
+                                <option value="service">General Customer Service</option>
+                                <option value="suggestions">Suggestions</option>
+                                <option value="product">Product Support</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                            Send Message</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <form>
+				<i class="fa fa-globe"></i> Our office
+            <address>
+                <strong>Linux Help.</strong><br>
+                Galway Mayo Institute of Technology<br>
+                Old Dublin Rd, Galway<br>
+                <abbr title="Phone">
+                    P:</abbr>
+                (091) 555-5555
+            </address>
+            <address>
+                <a href="mailto:#">linuxhelp@gmail.com</a>
+            </address>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Container -->
+<!-- iFrame -->
+<div class="container">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9542.436215299951!2d-9.0105646!3d53.2786241!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5a81260c20e02143!2sGMIT!5e0!3m2!1sen!2sie!4v1449072897799" width="1050" height="600" style="border:0"></iframe>
+</div>
+<!-- Footer -->
+<footer>
+    <div class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3><a href="index.html">Home</a></h3>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3><a href="https://www.linuxfoundation.org">Linux Home</a></h3>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3><a href="https://en.wikipedia.org/wiki/Linux">Linux Wiki</a></h3>
+                </div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3><a href="http://www.ubuntu.com/">Ubuntu</a></h3>
+                </div>
+                <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12 social-padding">
+                    <ul class="social">
+                        <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="https://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="https://www.pinterest.com"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.row--> 
+        </div>
+        <!--/.container--> 
+    </div>
+    <!--/.footer-->
+    
+    <div class="footer-bottom">
+        <div class="container">
+            <p class="pull-left"> Copyright © Linux Help. </p>
+        </div>
+    </div>
+    <!--/.footer-bottom--> 
+</footer>
+
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
